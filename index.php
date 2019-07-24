@@ -15,7 +15,7 @@
 			$title = $thread["data"]["title"]." by ".$thread["usermap"][$thread["data"]["author"]]["user_name"]." | ~team BBJ";
 		}
 	} else {
-		$title = "~team BBJ";
+		$title = "envs.net BBJ";
 	}
 
 	include 'client/header.php';
