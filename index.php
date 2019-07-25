@@ -6,13 +6,13 @@
 	if (isset($_GET["thread_id"])) {
 		$thread = $bbj->thread_load($_GET["thread_id"]);
 		if ($thread["error"]!=null) {
-			$title = "Unknown Thread | ~team BBJ";
+			$title = "Unknown Thread | envs.net BBJ";
 			include 'client/header.php';
 			echo "\t\t<p>No such thread exists. <a href='/'>Go home.</a></p>";
 			include 'client/footer.php';
 			die();
 		} else {
-			$title = $thread["data"]["title"]." by ".$thread["usermap"][$thread["data"]["author"]]["user_name"]." | ~team BBJ";
+			$title = $thread["data"]["title"]." by ".$thread["usermap"][$thread["data"]["author"]]["user_name"]." | envs.net BBJ";
 		}
 	} else {
 		$title = "envs.net BBJ";
