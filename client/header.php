@@ -26,9 +26,5 @@
 </head>
 <body>
 
-	<div class="button_back">
-		<pre class="clean"><strong><a href="https://envs.net">&lt; envs.net</a></strong></pre>
-	</div>
-
 	<div class="container">
 		<h1><?=$title?></h1>
