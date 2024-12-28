@@ -28,4 +28,3 @@
 
 	include 'client/footer.php';
 ?>
-

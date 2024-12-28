@@ -7,5 +7,5 @@
 	define("BBJ_HOST","127.0.0.1");
 	define("BBJ_PORT",7099);
 
-	define("BBJ_NAME","envs.net BBJ");
+	define("BBJ_NAME","BBJ on envs.net");
 ?>
