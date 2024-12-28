@@ -6,4 +6,6 @@
 	// Host and Port of BBJ instance
 	define("BBJ_HOST","127.0.0.1");
 	define("BBJ_PORT",7099);
+
+	define("BBJ_NAME","envs.net BBJ");
 ?>
